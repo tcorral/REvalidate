@@ -1,0 +1,36 @@
+{
+  "name": "REvalidate",
+  "version": "0.0.1",
+  "description": "A simple library to validate that uses a recursive call to validate more than one rule at once. ",
+  "homepage": "",
+  "author": "Tomas Corral",
+  "main": "./src/REvalidate.js",
+  "keywords": [
+    "validation",
+    "modular",
+    "scalable"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": {
+    "mail": "amischol@gmail.com",
+    "web": "https://github.com/tcorral/REvalidate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcorral/REvalidate.git"
+  },
+  "scripts": {
+    "test": "mocha test/REvalidate.js"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "should": "*"
+  },
+  "github": "https://github.com/tcorral/REvalidate"
+}
