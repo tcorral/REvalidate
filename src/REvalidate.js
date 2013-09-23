@@ -1,6 +1,13 @@
 (function(root)
 {
   var validations, REvalidate, isNodeEnvironment;
+  if(typeof Array.isArray === 'undefined')
+  {
+    Array.isArray = function (input)
+    {
+      return Object.prototype.toString.call(input) === '[object Array]';
+    };
+  }
   /**
    * Object that will hold all the rules to be used with isValid.
    * @private
